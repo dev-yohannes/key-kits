@@ -1,0 +1,33 @@
+nav {
+  background-color: bisque;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  .logo {
+    p {
+      font-size: 36px;
+    }
+  }
+
+  .links {
+    ul {
+      display: flex;
+
+      li {
+        list-style: none;
+        font-size: 20px;
+
+        &:nth-of-type(2) {
+          margin: 0 10px;
+        }
+
+        a {
+          color: black;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
